@@ -1,0 +1,6 @@
+Agent,Tool,Event Published,Event Handled By,Handler Function
+Service Agent,service_inserted,service_inserted,on_service_inserted,Prints: [Listener] Service Inserted Event Received: {event}
+Service Agent,service_updated,service_updated,on_service_updated,Prints: [Listener] Service Updated Event Received: {event}
+Service Agent,service_paid,service_paid,on_service_paid,Prints: [Listener] Service Paid Event Received: {event}
+Billing Agent,invoice_generated,invoice_generated,on_invoice_generated,Prints: [Billing Listener] Invoice Generated Event Received: {event}
+Billing Agent,invoice_paid,invoice_paid,on_invoice_paid,Prints: [Billing Listener] Invoice Paid Event Received: {event}

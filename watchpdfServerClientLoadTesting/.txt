@@ -1,0 +1,87 @@
+import os
+import time
+import subprocess
+from watchdog.observers import Observer
+from watchdog.events import FileSystemEventHandler
+import threading
+
+INPUT_DIR = "./allinvoices"
+os.makedirs(INPUT_DIR, exist_ok=True)
+
+
+# ------------------ Event Buffer ------------------ #
+class EventBuffer:
+    def __init__(self, buffer_size=5, flush_interval=5):
+        self.buffer = []
+        self.buffer_size = buffer_size
+        self.flush_interval = flush_interval
+        self.last_flush_time = time.time()
+        self.lock = threading.Lock()
+        self._start_timer()
+
+    def add_event(self, event):
+        with self.lock:
+            self.buffer.append(event)
+            if len(self.buffer) >= self.buffer_size:
+                self._flush_buffer()
+
+    def _flush_buffer(self):
+        if self.buffer:
+            print(f"\n🗂 Flushing {len(self.buffer)} events...")
+            for pdf_path in self.buffer:
+                base_name = os.path.basename(pdf_path)
+
+                # ✅ Launch a new client.py process for each PDF
+                process = subprocess.Popen(["python", "client.py", pdf_path])
+                print(f"🚀 Started client.py for {base_name} (PID: {process.pid})")
+
+            # Clear buffer
+            self.buffer.clear()
+            self.last_flush_time = time.time()
+
+    def _timer_flush(self):
+        while True:
+            time.sleep(1)
+            with self.lock:
+                if time.time() - self.last_flush_time >= self.flush_interval:
+                    self._flush_buffer()
+
+    def _start_timer(self):
+        timer_thread = threading.Thread(target=self._timer_flush, daemon=True)
+        timer_thread.start()
+
+
+# ------------------ File Handler ------------------ #
+class PDFHandler(FileSystemEventHandler):
+    def __init__(self, event_buffer):
+        super().__init__()
+        self.event_buffer = event_buffer
+
+    def on_created(self, event):
+        if event.is_directory:
+            return
+
+        if event.src_path.lower().endswith(".pdf"):
+            pdf_path = event.src_path
+            print(f"\n📂 New PDF detected: {pdf_path}")
+
+            # ✅ Add event to buffer instead of starting immediately
+            self.event_buffer.add_event(pdf_path)
+
+
+# ------------------ Main ------------------ #
+if __name__ == "__main__":
+    print(f"👀 Watching {INPUT_DIR} for new PDFs...")
+
+    event_buffer = EventBuffer(buffer_size=3, flush_interval=5)
+    event_handler = PDFHandler(event_buffer)
+    observer = Observer()
+    observer.schedule(event_handler, INPUT_DIR, recursive=False)
+    observer.start()
+
+    try:
+        while True:
+            time.sleep(1)
+    except KeyboardInterrupt:
+        observer.stop()
+    observer.join()

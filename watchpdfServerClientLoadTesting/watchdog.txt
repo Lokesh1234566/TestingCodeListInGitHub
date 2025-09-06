@@ -1,0 +1,42 @@
+import os
+import time
+import subprocess
+from watchdog.observers import Observer
+from watchdog.events import FileSystemEventHandler
+import threading
+
+INPUT_DIR = "./allinvoices"
+os.makedirs(INPUT_DIR, exist_ok=True)
+
+
+class PDFHandler(FileSystemEventHandler):
+    def on_created(self, event):
+        if event.is_directory:
+            return
+
+        if event.src_path.lower().endswith(".pdf"):
+            pdf_path = event.src_path
+            base_name = os.path.basename(pdf_path)
+
+            print(f"\n📂 New PDF detected: {pdf_path}")
+
+            # ✅ Launch a new client.py process for each PDF
+            process = subprocess.Popen(["python", "client.py", pdf_path])
+
+            print(f"🚀 Started client.py for {base_name} (PID: {process.pid})")
+
+
+if __name__ == "__main__":
+    print(f"👀 Watching {INPUT_DIR} for new PDFs...")
+
+    event_handler = PDFHandler()
+    observer = Observer()
+    observer.schedule(event_handler, INPUT_DIR, recursive=False)
+    observer.start()
+
+    try:
+        while True:
+            time.sleep(1)
+    except KeyboardInterrupt:
+        observer.stop()
+    observer.join()

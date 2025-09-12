@@ -1,0 +1,2737 @@
+{
+    "data": [
+        {
+            "name": "Account"
+        },
+        {
+            "name": "Account Closing Balance"
+        },
+        {
+            "name": "Accounting Dimension"
+        },
+        {
+            "name": "Accounting Dimension Detail"
+        },
+        {
+            "name": "Accounting Dimension Filter"
+        },
+        {
+            "name": "Accounting Period"
+        },
+        {
+            "name": "Accounts Settings"
+        },
+        {
+            "name": "Advance Payment Ledger Entry"
+        },
+        {
+            "name": "Advance Tax"
+        },
+        {
+            "name": "Advance Taxes and Charges"
+        },
+        {
+            "name": "Allowed Dimension"
+        },
+        {
+            "name": "Allowed To Transact With"
+        },
+        {
+            "name": "Applicable On Account"
+        },
+        {
+            "name": "Bank"
+        },
+        {
+            "name": "Bank Account"
+        },
+        {
+            "name": "Bank Account Subtype"
+        },
+        {
+            "name": "Bank Account Type"
+        },
+        {
+            "name": "Bank Clearance"
+        },
+        {
+            "name": "Bank Clearance Detail"
+        },
+        {
+            "name": "Bank Guarantee"
+        },
+        {
+            "name": "Bank Reconciliation Tool"
+        },
+        {
+            "name": "Bank Statement Import"
+        },
+        {
+            "name": "Bank Transaction"
+        },
+        {
+            "name": "Bank Transaction Mapping"
+        },
+        {
+            "name": "Bank Transaction Payments"
+        },
+        {
+            "name": "Bisect Accounting Statements"
+        },
+        {
+            "name": "Bisect Nodes"
+        },
+        {
+            "name": "Budget"
+        },
+        {
+            "name": "Budget Account"
+        },
+        {
+            "name": "Campaign Item"
+        },
+        {
+            "name": "Cashier Closing"
+        },
+        {
+            "name": "Cashier Closing Payments"
+        },
+        {
+            "name": "Chart of Accounts Importer"
+        },
+        {
+            "name": "Cheque Print Template"
+        },
+        {
+            "name": "Closed Document"
+        },
+        {
+            "name": "Cost Center"
+        },
+        {
+            "name": "Cost Center Allocation"
+        },
+        {
+            "name": "Cost Center Allocation Percentage"
+        },
+        {
+            "name": "Coupon Code"
+        },
+        {
+            "name": "Currency Exchange Settings"
+        },
+        {
+            "name": "Currency Exchange Settings Details"
+        },
+        {
+            "name": "Currency Exchange Settings Result"
+        },
+        {
+            "name": "Customer Group Item"
+        },
+        {
+            "name": "Customer Item"
+        },
+        {
+            "name": "Discounted Invoice"
+        },
+        {
+            "name": "Dunning"
+        },
+        {
+            "name": "Dunning Letter Text"
+        },
+        {
+            "name": "Dunning Type"
+        },
+        {
+            "name": "Exchange Rate Revaluation"
+        },
+        {
+            "name": "Exchange Rate Revaluation Account"
+        },
+        {
+            "name": "Finance Book"
+        },
+        {
+            "name": "Fiscal Year"
+        },
+        {
+            "name": "Fiscal Year Company"
+        },
+        {
+            "name": "GL Entry"
+        },
+        {
+            "name": "Invoice Discounting"
+        },
+        {
+            "name": "Item Tax Template"
+        },
+        {
+            "name": "Item Tax Template Detail"
+        },
+        {
+            "name": "Journal Entry"
+        },
+        {
+            "name": "Journal Entry Account"
+        },
+        {
+            "name": "Journal Entry Template"
+        },
+        {
+            "name": "Journal Entry Template Account"
+        },
+        {
+            "name": "Ledger Health"
+        },
+        {
+            "name": "Ledger Health Monitor"
+        },
+        {
+            "name": "Ledger Health Monitor Company"
+        },
+        {
+            "name": "Ledger Merge"
+        },
+        {
+            "name": "Ledger Merge Accounts"
+        },
+        {
+            "name": "Loyalty Point Entry"
+        },
+        {
+            "name": "Loyalty Point Entry Redemption"
+        },
+        {
+            "name": "Loyalty Program"
+        },
+        {
+            "name": "Loyalty Program Collection"
+        },
+        {
+            "name": "Mode of Payment"
+        },
+        {
+            "name": "Mode of Payment Account"
+        },
+        {
+            "name": "Monthly Distribution"
+        },
+        {
+            "name": "Monthly Distribution Percentage"
+        },
+        {
+            "name": "Opening Invoice Creation Tool"
+        },
+        {
+            "name": "Opening Invoice Creation Tool Item"
+        },
+        {
+            "name": "Overdue Payment"
+        },
+        {
+            "name": "Party Account"
+        },
+        {
+            "name": "Party Link"
+        },
+        {
+            "name": "Payment Entry"
+        },
+        {
+            "name": "Payment Entry Deduction"
+        },
+        {
+            "name": "Payment Entry Reference"
+        },
+        {
+            "name": "Payment Gateway Account"
+        },
+        {
+            "name": "Payment Ledger Entry"
+        },
+        {
+            "name": "Payment Order"
+        },
+        {
+            "name": "Payment Order Reference"
+        },
+        {
+            "name": "Payment Reconciliation"
+        },
+        {
+            "name": "Payment Reconciliation Allocation"
+        },
+        {
+            "name": "Payment Reconciliation Invoice"
+        },
+        {
+            "name": "Payment Reconciliation Payment"
+        },
+        {
+            "name": "Payment Request"
+        },
+        {
+            "name": "Payment Schedule"
+        },
+        {
+            "name": "Payment Term"
+        },
+        {
+            "name": "Payment Terms Template"
+        },
+        {
+            "name": "Payment Terms Template Detail"
+        },
+        {
+            "name": "Pegged Currencies"
+        },
+        {
+            "name": "Pegged Currency Details"
+        },
+        {
+            "name": "Period Closing Voucher"
+        },
+        {
+            "name": "POS Closing Entry"
+        },
+        {
+            "name": "POS Closing Entry Detail"
+        },
+        {
+            "name": "POS Closing Entry Taxes"
+        },
+        {
+            "name": "POS Customer Group"
+        },
+        {
+            "name": "POS Field"
+        },
+        {
+            "name": "POS Invoice"
+        },
+        {
+            "name": "POS Invoice Item"
+        },
+        {
+            "name": "POS Invoice Merge Log"
+        },
+        {
+            "name": "POS Invoice Reference"
+        },
+        {
+            "name": "POS Item Group"
+        },
+        {
+            "name": "POS Opening Entry"
+        },
+        {
+            "name": "POS Opening Entry Detail"
+        },
+        {
+            "name": "POS Payment Method"
+        },
+        {
+            "name": "POS Profile"
+        },
+        {
+            "name": "POS Profile User"
+        },
+        {
+            "name": "POS Search Fields"
+        },
+        {
+            "name": "POS Settings"
+        },
+        {
+            "name": "Pricing Rule"
+        },
+        {
+            "name": "Pricing Rule Brand"
+        },
+        {
+            "name": "Pricing Rule Detail"
+        },
+        {
+            "name": "Pricing Rule Item Code"
+        },
+        {
+            "name": "Pricing Rule Item Group"
+        },
+        {
+            "name": "Process Deferred Accounting"
+        },
+        {
+            "name": "Process Payment Reconciliation"
+        },
+        {
+            "name": "Process Payment Reconciliation Log"
+        },
+        {
+            "name": "Process Payment Reconciliation Log Allocations"
+        },
+        {
+            "name": "Process Statement Of Accounts"
+        },
+        {
+            "name": "Process Statement Of Accounts CC"
+        },
+        {
+            "name": "Process Statement Of Accounts Customer"
+        },
+        {
+            "name": "Process Subscription"
+        },
+        {
+            "name": "Promotional Scheme"
+        },
+        {
+            "name": "Promotional Scheme Price Discount"
+        },
+        {
+            "name": "Promotional Scheme Product Discount"
+        },
+        {
+            "name": "PSOA Cost Center"
+        },
+        {
+            "name": "PSOA Project"
+        },
+        {
+            "name": "Purchase Invoice"
+        },
+        {
+            "name": "Purchase Invoice Advance"
+        },
+        {
+            "name": "Purchase Invoice Item"
+        },
+        {
+            "name": "Purchase Taxes and Charges"
+        },
+        {
+            "name": "Purchase Taxes and Charges Template"
+        },
+        {
+            "name": "Repost Accounting Ledger"
+        },
+        {
+            "name": "Repost Accounting Ledger Items"
+        },
+        {
+            "name": "Repost Accounting Ledger Settings"
+        },
+        {
+            "name": "Repost Allowed Types"
+        },
+        {
+            "name": "Repost Payment Ledger"
+        },
+        {
+            "name": "Repost Payment Ledger Items"
+        },
+        {
+            "name": "Sales Invoice"
+        },
+        {
+            "name": "Sales Invoice Advance"
+        },
+        {
+            "name": "Sales Invoice Item"
+        },
+        {
+            "name": "Sales Invoice Payment"
+        },
+        {
+            "name": "Sales Invoice Timesheet"
+        },
+        {
+            "name": "Sales Partner Item"
+        },
+        {
+            "name": "Sales Taxes and Charges"
+        },
+        {
+            "name": "Sales Taxes and Charges Template"
+        },
+        {
+            "name": "Share Balance"
+        },
+        {
+            "name": "Share Transfer"
+        },
+        {
+            "name": "Share Type"
+        },
+        {
+            "name": "Shareholder"
+        },
+        {
+            "name": "Shipping Rule"
+        },
+        {
+            "name": "Shipping Rule Condition"
+        },
+        {
+            "name": "Shipping Rule Country"
+        },
+        {
+            "name": "South Africa VAT Account"
+        },
+        {
+            "name": "Subscription"
+        },
+        {
+            "name": "Subscription Invoice"
+        },
+        {
+            "name": "Subscription Plan"
+        },
+        {
+            "name": "Subscription Plan Detail"
+        },
+        {
+            "name": "Subscription Settings"
+        },
+        {
+            "name": "Supplier Group Item"
+        },
+        {
+            "name": "Supplier Item"
+        },
+        {
+            "name": "Tax Category"
+        },
+        {
+            "name": "Tax Rule"
+        },
+        {
+            "name": "Tax Withheld Vouchers"
+        },
+        {
+            "name": "Tax Withholding Account"
+        },
+        {
+            "name": "Tax Withholding Category"
+        },
+        {
+            "name": "Tax Withholding Rate"
+        },
+        {
+            "name": "Territory Item"
+        },
+        {
+            "name": "Transaction Deletion Record Details"
+        },
+        {
+            "name": "Unreconcile Payment"
+        },
+        {
+            "name": "Unreconcile Payment Entries"
+        },
+        {
+            "name": "Asset"
+        },
+        {
+            "name": "Asset Activity"
+        },
+        {
+            "name": "Asset Capitalization"
+        },
+        {
+            "name": "Asset Capitalization Asset Item"
+        },
+        {
+            "name": "Asset Capitalization Service Item"
+        },
+        {
+            "name": "Asset Capitalization Stock Item"
+        },
+        {
+            "name": "Asset Category"
+        },
+        {
+            "name": "Asset Category Account"
+        },
+        {
+            "name": "Asset Depreciation Schedule"
+        },
+        {
+            "name": "Asset Finance Book"
+        },
+        {
+            "name": "Asset Maintenance"
+        },
+        {
+            "name": "Asset Maintenance Log"
+        },
+        {
+            "name": "Asset Maintenance Task"
+        },
+        {
+            "name": "Asset Maintenance Team"
+        },
+        {
+            "name": "Asset Movement"
+        },
+        {
+            "name": "Asset Movement Item"
+        },
+        {
+            "name": "Asset Repair"
+        },
+        {
+            "name": "Asset Repair Consumed Item"
+        },
+        {
+            "name": "Asset Shift Allocation"
+        },
+        {
+            "name": "Asset Shift Factor"
+        },
+        {
+            "name": "Asset Value Adjustment"
+        },
+        {
+            "name": "Depreciation Schedule"
+        },
+        {
+            "name": "Linked Location"
+        },
+        {
+            "name": "Location"
+        },
+        {
+            "name": "Maintenance Team Member"
+        },
+        {
+            "name": "Assignment Rule"
+        },
+        {
+            "name": "Assignment Rule Day"
+        },
+        {
+            "name": "Assignment Rule User"
+        },
+        {
+            "name": "Auto Repeat"
+        },
+        {
+            "name": "Auto Repeat Day"
+        },
+        {
+            "name": "Milestone"
+        },
+        {
+            "name": "Milestone Tracker"
+        },
+        {
+            "name": "Reminder"
+        },
+        {
+            "name": "Bulk Transaction Log"
+        },
+        {
+            "name": "Bulk Transaction Log Detail"
+        },
+        {
+            "name": "Buying Settings"
+        },
+        {
+            "name": "Purchase Order"
+        },
+        {
+            "name": "Purchase Order Item"
+        },
+        {
+            "name": "Purchase Order Item Supplied"
+        },
+        {
+            "name": "Purchase Receipt Item Supplied"
+        },
+        {
+            "name": "Request for Quotation"
+        },
+        {
+            "name": "Request for Quotation Item"
+        },
+        {
+            "name": "Request for Quotation Supplier"
+        },
+        {
+            "name": "Supplier"
+        },
+        {
+            "name": "Supplier Quotation"
+        },
+        {
+            "name": "Supplier Quotation Item"
+        },
+        {
+            "name": "Supplier Scorecard"
+        },
+        {
+            "name": "Supplier Scorecard Criteria"
+        },
+        {
+            "name": "Supplier Scorecard Period"
+        },
+        {
+            "name": "Supplier Scorecard Scoring Criteria"
+        },
+        {
+            "name": "Supplier Scorecard Scoring Standing"
+        },
+        {
+            "name": "Supplier Scorecard Scoring Variable"
+        },
+        {
+            "name": "Supplier Scorecard Standing"
+        },
+        {
+            "name": "Supplier Scorecard Variable"
+        },
+        {
+            "name": "Communication Medium"
+        },
+        {
+            "name": "Communication Medium Timeslot"
+        },
+        {
+            "name": "Address"
+        },
+        {
+            "name": "Address Template"
+        },
+        {
+            "name": "Contact"
+        },
+        {
+            "name": "Contact Email"
+        },
+        {
+            "name": "Contact Phone"
+        },
+        {
+            "name": "Gender"
+        },
+        {
+            "name": "Salutation"
+        },
+        {
+            "name": "Access Log"
+        },
+        {
+            "name": "Activity Log"
+        },
+        {
+            "name": "Amended Document Naming Settings"
+        },
+        {
+            "name": "Audit Trail"
+        },
+        {
+            "name": "Block Module"
+        },
+        {
+            "name": "Comment"
+        },
+        {
+            "name": "Communication"
+        },
+        {
+            "name": "Communication Link"
+        },
+        {
+            "name": "Custom DocPerm"
+        },
+        {
+            "name": "Custom Role"
+        },
+        {
+            "name": "Data Export"
+        },
+        {
+            "name": "Data Import"
+        },
+        {
+            "name": "Data Import Log"
+        },
+        {
+            "name": "DefaultValue"
+        },
+        {
+            "name": "Deleted Document"
+        },
+        {
+            "name": "DocField"
+        },
+        {
+            "name": "DocPerm"
+        },
+        {
+            "name": "DocShare"
+        },
+        {
+            "name": "DocType"
+        },
+        {
+            "name": "DocType Action"
+        },
+        {
+            "name": "DocType Link"
+        },
+        {
+            "name": "DocType State"
+        },
+        {
+            "name": "Document Naming Rule"
+        },
+        {
+            "name": "Document Naming Rule Condition"
+        },
+        {
+            "name": "Document Naming Settings"
+        },
+        {
+            "name": "Document Share Key"
+        },
+        {
+            "name": "Domain"
+        },
+        {
+            "name": "Domain Settings"
+        },
+        {
+            "name": "Dynamic Link"
+        },
+        {
+            "name": "Error Log"
+        },
+        {
+            "name": "File"
+        },
+        {
+            "name": "Has Domain"
+        },
+        {
+            "name": "Has Role"
+        },
+        {
+            "name": "Installed Application"
+        },
+        {
+            "name": "Installed Applications"
+        },
+        {
+            "name": "Language"
+        },
+        {
+            "name": "Log Setting User"
+        },
+        {
+            "name": "Log Settings"
+        },
+        {
+            "name": "Logs To Clear"
+        },
+        {
+            "name": "Module Def"
+        },
+        {
+            "name": "Module Profile"
+        },
+        {
+            "name": "Navbar Item"
+        },
+        {
+            "name": "Navbar Settings"
+        },
+        {
+            "name": "Package"
+        },
+        {
+            "name": "Package Import"
+        },
+        {
+            "name": "Package Release"
+        },
+        {
+            "name": "Page"
+        },
+        {
+            "name": "Patch Log"
+        },
+        {
+            "name": "Permission Inspector"
+        },
+        {
+            "name": "Prepared Report"
+        },
+        {
+            "name": "Recorder"
+        },
+        {
+            "name": "Recorder Query"
+        },
+        {
+            "name": "Recorder Suggested Index"
+        },
+        {
+            "name": "Report"
+        },
+        {
+            "name": "Report Column"
+        },
+        {
+            "name": "Report Filter"
+        },
+        {
+            "name": "Role"
+        },
+        {
+            "name": "Role Permission for Page and Report"
+        },
+        {
+            "name": "Role Profile"
+        },
+        {
+            "name": "RQ Job"
+        },
+        {
+            "name": "RQ Worker"
+        },
+        {
+            "name": "Scheduled Job Log"
+        },
+        {
+            "name": "Scheduled Job Type"
+        },
+        {
+            "name": "Scheduler Event"
+        },
+        {
+            "name": "Server Script"
+        },
+        {
+            "name": "Session Default"
+        },
+        {
+            "name": "Session Default Settings"
+        },
+        {
+            "name": "SMS Parameter"
+        },
+        {
+            "name": "SMS Settings"
+        },
+        {
+            "name": "Submission Queue"
+        },
+        {
+            "name": "Success Action"
+        },
+        {
+            "name": "System Settings"
+        },
+        {
+            "name": "Transaction Log"
+        },
+        {
+            "name": "Translation"
+        },
+        {
+            "name": "User"
+        },
+        {
+            "name": "User Document Type"
+        },
+        {
+            "name": "User Email"
+        },
+        {
+            "name": "User Group"
+        },
+        {
+            "name": "User Group Member"
+        },
+        {
+            "name": "User Invitation"
+        },
+        {
+            "name": "User Permission"
+        },
+        {
+            "name": "User Role"
+        },
+        {
+            "name": "User Select Document Type"
+        },
+        {
+            "name": "User Social Login"
+        },
+        {
+            "name": "User Type"
+        },
+        {
+            "name": "User Type Module"
+        },
+        {
+            "name": "Version"
+        },
+        {
+            "name": "View Log"
+        },
+        {
+            "name": "Appointment"
+        },
+        {
+            "name": "Appointment Booking Settings"
+        },
+        {
+            "name": "Appointment Booking Slots"
+        },
+        {
+            "name": "Availability Of Slots"
+        },
+        {
+            "name": "Campaign"
+        },
+        {
+            "name": "Campaign Email Schedule"
+        },
+        {
+            "name": "Competitor"
+        },
+        {
+            "name": "Competitor Detail"
+        },
+        {
+            "name": "Contract"
+        },
+        {
+            "name": "Contract Fulfilment Checklist"
+        },
+        {
+            "name": "Contract Template"
+        },
+        {
+            "name": "Contract Template Fulfilment Terms"
+        },
+        {
+            "name": "CRM Note"
+        },
+        {
+            "name": "CRM Settings"
+        },
+        {
+            "name": "Email Campaign"
+        },
+        {
+            "name": "Lead"
+        },
+        {
+            "name": "Lead Source"
+        },
+        {
+            "name": "Lost Reason Detail"
+        },
+        {
+            "name": "Market Segment"
+        },
+        {
+            "name": "Opportunity"
+        },
+        {
+            "name": "Opportunity Item"
+        },
+        {
+            "name": "Opportunity Lost Reason"
+        },
+        {
+            "name": "Opportunity Lost Reason Detail"
+        },
+        {
+            "name": "Opportunity Type"
+        },
+        {
+            "name": "Prospect"
+        },
+        {
+            "name": "Prospect Lead"
+        },
+        {
+            "name": "Prospect Opportunity"
+        },
+        {
+            "name": "Sales Stage"
+        },
+        {
+            "name": "Client Script"
+        },
+        {
+            "name": "Custom Field"
+        },
+        {
+            "name": "Customize Form"
+        },
+        {
+            "name": "Customize Form Field"
+        },
+        {
+            "name": "DocType Layout"
+        },
+        {
+            "name": "DocType Layout Field"
+        },
+        {
+            "name": "Property Setter"
+        },
+        {
+            "name": "Bulk Update"
+        },
+        {
+            "name": "Calendar View"
+        },
+        {
+            "name": "Changelog Feed"
+        },
+        {
+            "name": "Console Log"
+        },
+        {
+            "name": "Custom HTML Block"
+        },
+        {
+            "name": "Dashboard"
+        },
+        {
+            "name": "Dashboard Chart"
+        },
+        {
+            "name": "Dashboard Chart Field"
+        },
+        {
+            "name": "Dashboard Chart Link"
+        },
+        {
+            "name": "Dashboard Chart Source"
+        },
+        {
+            "name": "Dashboard Settings"
+        },
+        {
+            "name": "Desktop Icon"
+        },
+        {
+            "name": "Event"
+        },
+        {
+            "name": "Event Participants"
+        },
+        {
+            "name": "Form Tour"
+        },
+        {
+            "name": "Form Tour Step"
+        },
+        {
+            "name": "Global Search DocType"
+        },
+        {
+            "name": "Global Search Settings"
+        },
+        {
+            "name": "Kanban Board"
+        },
+        {
+            "name": "Kanban Board Column"
+        },
+        {
+            "name": "List Filter"
+        },
+        {
+            "name": "List View Settings"
+        },
+        {
+            "name": "Module Onboarding"
+        },
+        {
+            "name": "Note"
+        },
+        {
+            "name": "Note Seen By"
+        },
+        {
+            "name": "Notification Log"
+        },
+        {
+            "name": "Notification Settings"
+        },
+        {
+            "name": "Notification Subscribed Document"
+        },
+        {
+            "name": "Number Card"
+        },
+        {
+            "name": "Number Card Link"
+        },
+        {
+            "name": "Onboarding Permission"
+        },
+        {
+            "name": "Onboarding Step"
+        },
+        {
+            "name": "Onboarding Step Map"
+        },
+        {
+            "name": "Route History"
+        },
+        {
+            "name": "System Console"
+        },
+        {
+            "name": "System Health Report"
+        },
+        {
+            "name": "System Health Report Errors"
+        },
+        {
+            "name": "System Health Report Failing Jobs"
+        },
+        {
+            "name": "System Health Report Queue"
+        },
+        {
+            "name": "System Health Report Tables"
+        },
+        {
+            "name": "System Health Report Workers"
+        },
+        {
+            "name": "Tag"
+        },
+        {
+            "name": "Tag Link"
+        },
+        {
+            "name": "ToDo"
+        },
+        {
+            "name": "Workspace"
+        },
+        {
+            "name": "Workspace Chart"
+        },
+        {
+            "name": "Workspace Custom Block"
+        },
+        {
+            "name": "Workspace Link"
+        },
+        {
+            "name": "Workspace Number Card"
+        },
+        {
+            "name": "Workspace Quick List"
+        },
+        {
+            "name": "Workspace Shortcut"
+        },
+        {
+            "name": "Code List"
+        },
+        {
+            "name": "Common Code"
+        },
+        {
+            "name": "Auto Email Report"
+        },
+        {
+            "name": "Document Follow"
+        },
+        {
+            "name": "Email Account"
+        },
+        {
+            "name": "Email Domain"
+        },
+        {
+            "name": "Email Flag Queue"
+        },
+        {
+            "name": "Email Group"
+        },
+        {
+            "name": "Email Group Member"
+        },
+        {
+            "name": "Email Queue"
+        },
+        {
+            "name": "Email Queue Recipient"
+        },
+        {
+            "name": "Email Rule"
+        },
+        {
+            "name": "Email Template"
+        },
+        {
+            "name": "Email Unsubscribe"
+        },
+        {
+            "name": "IMAP Folder"
+        },
+        {
+            "name": "Newsletter"
+        },
+        {
+            "name": "Newsletter Attachment"
+        },
+        {
+            "name": "Newsletter Email Group"
+        },
+        {
+            "name": "Notification"
+        },
+        {
+            "name": "Notification Recipient"
+        },
+        {
+            "name": "Unhandled Email"
+        },
+        {
+            "name": "Plaid Settings"
+        },
+        {
+            "name": "Country"
+        },
+        {
+            "name": "Currency"
+        },
+        {
+            "name": "Appointment Letter"
+        },
+        {
+            "name": "Appointment Letter content"
+        },
+        {
+            "name": "Appointment Letter Template"
+        },
+        {
+            "name": "Appraisal"
+        },
+        {
+            "name": "Appraisal Cycle"
+        },
+        {
+            "name": "Appraisal Goal"
+        },
+        {
+            "name": "Appraisal KRA"
+        },
+        {
+            "name": "Appraisal Template"
+        },
+        {
+            "name": "Appraisal Template Goal"
+        },
+        {
+            "name": "Appraisee"
+        },
+        {
+            "name": "Attendance"
+        },
+        {
+            "name": "Attendance Request"
+        },
+        {
+            "name": "Compensatory Leave Request"
+        },
+        {
+            "name": "Daily Work Summary"
+        },
+        {
+            "name": "Daily Work Summary Group"
+        },
+        {
+            "name": "Daily Work Summary Group User"
+        },
+        {
+            "name": "Department Approver"
+        },
+        {
+            "name": "Designation Skill"
+        },
+        {
+            "name": "Employee Advance"
+        },
+        {
+            "name": "Employee Attendance Tool"
+        },
+        {
+            "name": "Employee Boarding Activity"
+        },
+        {
+            "name": "Employee Checkin"
+        },
+        {
+            "name": "Employee Feedback Criteria"
+        },
+        {
+            "name": "Employee Feedback Rating"
+        },
+        {
+            "name": "Employee Grade"
+        },
+        {
+            "name": "Employee Grievance"
+        },
+        {
+            "name": "Employee Health Insurance"
+        },
+        {
+            "name": "Employee Onboarding"
+        },
+        {
+            "name": "Employee Onboarding Template"
+        },
+        {
+            "name": "Employee Performance Feedback"
+        },
+        {
+            "name": "Employee Promotion"
+        },
+        {
+            "name": "Employee Property History"
+        },
+        {
+            "name": "Employee Referral"
+        },
+        {
+            "name": "Employee Separation"
+        },
+        {
+            "name": "Employee Separation Template"
+        },
+        {
+            "name": "Employee Skill"
+        },
+        {
+            "name": "Employee Skill Map"
+        },
+        {
+            "name": "Employee Training"
+        },
+        {
+            "name": "Employee Transfer"
+        },
+        {
+            "name": "Employment Type"
+        },
+        {
+            "name": "Exit Interview"
+        },
+        {
+            "name": "Expected Skill Set"
+        },
+        {
+            "name": "Expense Claim"
+        },
+        {
+            "name": "Expense Claim Account"
+        },
+        {
+            "name": "Expense Claim Advance"
+        },
+        {
+            "name": "Expense Claim Detail"
+        },
+        {
+            "name": "Expense Claim Type"
+        },
+        {
+            "name": "Expense Taxes and Charges"
+        },
+        {
+            "name": "Full and Final Asset"
+        },
+        {
+            "name": "Full and Final Outstanding Statement"
+        },
+        {
+            "name": "Full and Final Statement"
+        },
+        {
+            "name": "Goal"
+        },
+        {
+            "name": "Grievance Type"
+        },
+        {
+            "name": "HR Settings"
+        },
+        {
+            "name": "Identification Document Type"
+        },
+        {
+            "name": "Interest"
+        },
+        {
+            "name": "Interview"
+        },
+        {
+            "name": "Interview Detail"
+        },
+        {
+            "name": "Interview Feedback"
+        },
+        {
+            "name": "Interview Round"
+        },
+        {
+            "name": "Interview Type"
+        },
+        {
+            "name": "Interviewer"
+        },
+        {
+            "name": "Job Applicant"
+        },
+        {
+            "name": "Job Applicant Source"
+        },
+        {
+            "name": "Job Offer"
+        },
+        {
+            "name": "Job Offer Term"
+        },
+        {
+            "name": "Job Offer Term Template"
+        },
+        {
+            "name": "Job Opening"
+        },
+        {
+            "name": "Job Requisition"
+        },
+        {
+            "name": "KRA"
+        },
+        {
+            "name": "Leave Allocation"
+        },
+        {
+            "name": "Leave Application"
+        },
+        {
+            "name": "Leave Block List"
+        },
+        {
+            "name": "Leave Block List Allow"
+        },
+        {
+            "name": "Leave Block List Date"
+        },
+        {
+            "name": "Leave Control Panel"
+        },
+        {
+            "name": "Leave Encashment"
+        },
+        {
+            "name": "Leave Ledger Entry"
+        },
+        {
+            "name": "Leave Period"
+        },
+        {
+            "name": "Leave Policy"
+        },
+        {
+            "name": "Leave Policy Assignment"
+        },
+        {
+            "name": "Leave Policy Detail"
+        },
+        {
+            "name": "Leave Type"
+        },
+        {
+            "name": "Offer Term"
+        },
+        {
+            "name": "Purpose of Travel"
+        },
+        {
+            "name": "PWA Notification"
+        },
+        {
+            "name": "Shift Assignment"
+        },
+        {
+            "name": "Shift Assignment Tool"
+        },
+        {
+            "name": "Shift Location"
+        },
+        {
+            "name": "Shift Request"
+        },
+        {
+            "name": "Shift Schedule"
+        },
+        {
+            "name": "Shift Schedule Assignment"
+        },
+        {
+            "name": "Shift Type"
+        },
+        {
+            "name": "Skill"
+        },
+        {
+            "name": "Skill Assessment"
+        },
+        {
+            "name": "Staffing Plan"
+        },
+        {
+            "name": "Staffing Plan Detail"
+        },
+        {
+            "name": "Training Event"
+        },
+        {
+            "name": "Training Event Employee"
+        },
+        {
+            "name": "Training Feedback"
+        },
+        {
+            "name": "Training Program"
+        },
+        {
+            "name": "Training Result"
+        },
+        {
+            "name": "Training Result Employee"
+        },
+        {
+            "name": "Travel Itinerary"
+        },
+        {
+            "name": "Travel Request"
+        },
+        {
+            "name": "Travel Request Costing"
+        },
+        {
+            "name": "Upload Attendance"
+        },
+        {
+            "name": "Vehicle Log"
+        },
+        {
+            "name": "Vehicle Service"
+        },
+        {
+            "name": "Vehicle Service Item"
+        },
+        {
+            "name": "Connected App"
+        },
+        {
+            "name": "Dropbox Settings"
+        },
+        {
+            "name": "Google Calendar"
+        },
+        {
+            "name": "Google Contacts"
+        },
+        {
+            "name": "Google Drive"
+        },
+        {
+            "name": "Google Settings"
+        },
+        {
+            "name": "Integration Request"
+        },
+        {
+            "name": "LDAP Group Mapping"
+        },
+        {
+            "name": "LDAP Settings"
+        },
+        {
+            "name": "OAuth Authorization Code"
+        },
+        {
+            "name": "OAuth Bearer Token"
+        },
+        {
+            "name": "OAuth Client"
+        },
+        {
+            "name": "OAuth Client Role"
+        },
+        {
+            "name": "OAuth Provider Settings"
+        },
+        {
+            "name": "OAuth Scope"
+        },
+        {
+            "name": "Push Notification Settings"
+        },
+        {
+            "name": "Query Parameters"
+        },
+        {
+            "name": "S3 Backup Settings"
+        },
+        {
+            "name": "Slack Webhook URL"
+        },
+        {
+            "name": "Social Login Key"
+        },
+        {
+            "name": "Token Cache"
+        },
+        {
+            "name": "Webhook"
+        },
+        {
+            "name": "Webhook Data"
+        },
+        {
+            "name": "Webhook Header"
+        },
+        {
+            "name": "Webhook Request Log"
+        },
+        {
+            "name": "Maintenance Schedule"
+        },
+        {
+            "name": "Maintenance Schedule Detail"
+        },
+        {
+            "name": "Maintenance Schedule Item"
+        },
+        {
+            "name": "Maintenance Visit"
+        },
+        {
+            "name": "Maintenance Visit Purpose"
+        },
+        {
+            "name": "Blanket Order"
+        },
+        {
+            "name": "Blanket Order Item"
+        },
+        {
+            "name": "BOM"
+        },
+        {
+            "name": "BOM Creator"
+        },
+        {
+            "name": "BOM Creator Item"
+        },
+        {
+            "name": "BOM Explosion Item"
+        },
+        {
+            "name": "BOM Item"
+        },
+        {
+            "name": "BOM Operation"
+        },
+        {
+            "name": "BOM Scrap Item"
+        },
+        {
+            "name": "BOM Update Batch"
+        },
+        {
+            "name": "BOM Update Log"
+        },
+        {
+            "name": "BOM Update Tool"
+        },
+        {
+            "name": "BOM Website Item"
+        },
+        {
+            "name": "BOM Website Operation"
+        },
+        {
+            "name": "Downtime Entry"
+        },
+        {
+            "name": "Job Card"
+        },
+        {
+            "name": "Job Card Item"
+        },
+        {
+            "name": "Job Card Operation"
+        },
+        {
+            "name": "Job Card Scheduled Time"
+        },
+        {
+            "name": "Job Card Scrap Item"
+        },
+        {
+            "name": "Job Card Time Log"
+        },
+        {
+            "name": "Manufacturing Settings"
+        },
+        {
+            "name": "Material Request Plan Item"
+        },
+        {
+            "name": "Operation"
+        },
+        {
+            "name": "Plant Floor"
+        },
+        {
+            "name": "Production Plan"
+        },
+        {
+            "name": "Production Plan Item"
+        },
+        {
+            "name": "Production Plan Item Reference"
+        },
+        {
+            "name": "Production Plan Material Request"
+        },
+        {
+            "name": "Production Plan Material Request Warehouse"
+        },
+        {
+            "name": "Production Plan Sales Order"
+        },
+        {
+            "name": "Production Plan Sub Assembly Item"
+        },
+        {
+            "name": "Routing"
+        },
+        {
+            "name": "Sub Operation"
+        },
+        {
+            "name": "Work Order"
+        },
+        {
+            "name": "Work Order Item"
+        },
+        {
+            "name": "Work Order Operation"
+        },
+        {
+            "name": "Workstation"
+        },
+        {
+            "name": "Workstation Type"
+        },
+        {
+            "name": "Workstation Working Hour"
+        },
+        {
+            "name": "Additional Salary"
+        },
+        {
+            "name": "Bulk Salary Structure Assignment"
+        },
+        {
+            "name": "Employee Benefit Application"
+        },
+        {
+            "name": "Employee Benefit Application Detail"
+        },
+        {
+            "name": "Employee Benefit Claim"
+        },
+        {
+            "name": "Employee Cost Center"
+        },
+        {
+            "name": "Employee Incentive"
+        },
+        {
+            "name": "Employee Other Income"
+        },
+        {
+            "name": "Employee Tax Exemption Category"
+        },
+        {
+            "name": "Employee Tax Exemption Declaration"
+        },
+        {
+            "name": "Employee Tax Exemption Declaration Category"
+        },
+        {
+            "name": "Employee Tax Exemption Proof Submission"
+        },
+        {
+            "name": "Employee Tax Exemption Proof Submission Detail"
+        },
+        {
+            "name": "Employee Tax Exemption Sub Category"
+        },
+        {
+            "name": "Gratuity"
+        },
+        {
+            "name": "Gratuity Applicable Component"
+        },
+        {
+            "name": "Gratuity Rule"
+        },
+        {
+            "name": "Gratuity Rule Slab"
+        },
+        {
+            "name": "Income Tax Slab"
+        },
+        {
+            "name": "Income Tax Slab Other Charges"
+        },
+        {
+            "name": "Payroll Employee Detail"
+        },
+        {
+            "name": "Payroll Entry"
+        },
+        {
+            "name": "Payroll Period"
+        },
+        {
+            "name": "Payroll Period Date"
+        },
+        {
+            "name": "Payroll Settings"
+        },
+        {
+            "name": "Retention Bonus"
+        },
+        {
+            "name": "Salary Component"
+        },
+        {
+            "name": "Salary Component Account"
+        },
+        {
+            "name": "Salary Detail"
+        },
+        {
+            "name": "Salary Slip"
+        },
+        {
+            "name": "Salary Slip Leave"
+        },
+        {
+            "name": "Salary Slip Loan"
+        },
+        {
+            "name": "Salary Slip Timesheet"
+        },
+        {
+            "name": "Salary Structure"
+        },
+        {
+            "name": "Salary Structure Assignment"
+        },
+        {
+            "name": "Salary Withholding"
+        },
+        {
+            "name": "Salary Withholding Cycle"
+        },
+        {
+            "name": "Taxable Salary Slab"
+        },
+        {
+            "name": "Homepage"
+        },
+        {
+            "name": "Homepage Section"
+        },
+        {
+            "name": "Homepage Section Card"
+        },
+        {
+            "name": "Website Attribute"
+        },
+        {
+            "name": "Website Filter Field"
+        },
+        {
+            "name": "Letter Head"
+        },
+        {
+            "name": "Network Printer Settings"
+        },
+        {
+            "name": "Print Format"
+        },
+        {
+            "name": "Print Format Field Template"
+        },
+        {
+            "name": "Print Settings"
+        },
+        {
+            "name": "Print Style"
+        },
+        {
+            "name": "Activity Cost"
+        },
+        {
+            "name": "Activity Type"
+        },
+        {
+            "name": "Dependent Task"
+        },
+        {
+            "name": "Project"
+        },
+        {
+            "name": "Project Template"
+        },
+        {
+            "name": "Project Template Task"
+        },
+        {
+            "name": "Project Type"
+        },
+        {
+            "name": "Project Update"
+        },
+        {
+            "name": "Project User"
+        },
+        {
+            "name": "Projects Settings"
+        },
+        {
+            "name": "Task"
+        },
+        {
+            "name": "Task Depends On"
+        },
+        {
+            "name": "Task Type"
+        },
+        {
+            "name": "Timesheet"
+        },
+        {
+            "name": "Timesheet Detail"
+        },
+        {
+            "name": "Non Conformance"
+        },
+        {
+            "name": "Quality Action"
+        },
+        {
+            "name": "Quality Action Resolution"
+        },
+        {
+            "name": "Quality Feedback"
+        },
+        {
+            "name": "Quality Feedback Parameter"
+        },
+        {
+            "name": "Quality Feedback Template"
+        },
+        {
+            "name": "Quality Feedback Template Parameter"
+        },
+        {
+            "name": "Quality Goal"
+        },
+        {
+            "name": "Quality Goal Objective"
+        },
+        {
+            "name": "Quality Meeting"
+        },
+        {
+            "name": "Quality Meeting Agenda"
+        },
+        {
+            "name": "Quality Meeting Minutes"
+        },
+        {
+            "name": "Quality Procedure"
+        },
+        {
+            "name": "Quality Procedure Process"
+        },
+        {
+            "name": "Quality Review"
+        },
+        {
+            "name": "Quality Review Objective"
+        },
+        {
+            "name": "Import Supplier Invoice"
+        },
+        {
+            "name": "Lower Deduction Certificate"
+        },
+        {
+            "name": "South Africa VAT Settings"
+        },
+        {
+            "name": "UAE VAT Account"
+        },
+        {
+            "name": "UAE VAT Settings"
+        },
+        {
+            "name": "Customer"
+        },
+        {
+            "name": "Customer Credit Limit"
+        },
+        {
+            "name": "Industry Type"
+        },
+        {
+            "name": "Installation Note"
+        },
+        {
+            "name": "Installation Note Item"
+        },
+        {
+            "name": "Party Specific Item"
+        },
+        {
+            "name": "Product Bundle"
+        },
+        {
+            "name": "Product Bundle Item"
+        },
+        {
+            "name": "Quotation"
+        },
+        {
+            "name": "Quotation Item"
+        },
+        {
+            "name": "Sales Order"
+        },
+        {
+            "name": "Sales Order Item"
+        },
+        {
+            "name": "Sales Partner Type"
+        },
+        {
+            "name": "Sales Team"
+        },
+        {
+            "name": "Selling Settings"
+        },
+        {
+            "name": "SMS Center"
+        },
+        {
+            "name": "Authorization Control"
+        },
+        {
+            "name": "Authorization Rule"
+        },
+        {
+            "name": "Branch"
+        },
+        {
+            "name": "Brand"
+        },
+        {
+            "name": "Company"
+        },
+        {
+            "name": "Currency Exchange"
+        },
+        {
+            "name": "Customer Group"
+        },
+        {
+            "name": "Department"
+        },
+        {
+            "name": "Designation"
+        },
+        {
+            "name": "Driver"
+        },
+        {
+            "name": "Driving License Category"
+        },
+        {
+            "name": "Email Digest"
+        },
+        {
+            "name": "Email Digest Recipient"
+        },
+        {
+            "name": "Employee"
+        },
+        {
+            "name": "Employee Education"
+        },
+        {
+            "name": "Employee External Work History"
+        },
+        {
+            "name": "Employee Group"
+        },
+        {
+            "name": "Employee Group Table"
+        },
+        {
+            "name": "Employee Internal Work History"
+        },
+        {
+            "name": "Global Defaults"
+        },
+        {
+            "name": "Holiday"
+        },
+        {
+            "name": "Holiday List"
+        },
+        {
+            "name": "Incoterm"
+        },
+        {
+            "name": "Item Group"
+        },
+        {
+            "name": "Party Type"
+        },
+        {
+            "name": "Print Heading"
+        },
+        {
+            "name": "Quotation Lost Reason"
+        },
+        {
+            "name": "Quotation Lost Reason Detail"
+        },
+        {
+            "name": "Sales Partner"
+        },
+        {
+            "name": "Sales Person"
+        },
+        {
+            "name": "Supplier Group"
+        },
+        {
+            "name": "Target Detail"
+        },
+        {
+            "name": "Terms and Conditions"
+        },
+        {
+            "name": "Territory"
+        },
+        {
+            "name": "Transaction Deletion Record"
+        },
+        {
+            "name": "Transaction Deletion Record Item"
+        },
+        {
+            "name": "UOM"
+        },
+        {
+            "name": "UOM Conversion Factor"
+        },
+        {
+            "name": "Vehicle"
+        },
+        {
+            "name": "Website Item Group"
+        },
+        {
+            "name": "Energy Point Log"
+        },
+        {
+            "name": "Energy Point Rule"
+        },
+        {
+            "name": "Energy Point Settings"
+        },
+        {
+            "name": "Review Level"
+        },
+        {
+            "name": "Batch"
+        },
+        {
+            "name": "Bin"
+        },
+        {
+            "name": "Closing Stock Balance"
+        },
+        {
+            "name": "Customs Tariff Number"
+        },
+        {
+            "name": "Delivery Note"
+        },
+        {
+            "name": "Delivery Note Item"
+        },
+        {
+            "name": "Delivery Settings"
+        },
+        {
+            "name": "Delivery Stop"
+        },
+        {
+            "name": "Delivery Trip"
+        },
+        {
+            "name": "Inventory Dimension"
+        },
+        {
+            "name": "Item"
+        },
+        {
+            "name": "Item Alternative"
+        },
+        {
+            "name": "Item Attribute"
+        },
+        {
+            "name": "Item Attribute Value"
+        },
+        {
+            "name": "Item Barcode"
+        },
+        {
+            "name": "Item Customer Detail"
+        },
+        {
+            "name": "Item Default"
+        },
+        {
+            "name": "Item Manufacturer"
+        },
+        {
+            "name": "Item Price"
+        },
+        {
+            "name": "Item Quality Inspection Parameter"
+        },
+        {
+            "name": "Item Reorder"
+        },
+        {
+            "name": "Item Supplier"
+        },
+        {
+            "name": "Item Tax"
+        },
+        {
+            "name": "Item Variant"
+        },
+        {
+            "name": "Item Variant Attribute"
+        },
+        {
+            "name": "Item Variant Settings"
+        },
+        {
+            "name": "Item Website Specification"
+        },
+        {
+            "name": "Landed Cost Item"
+        },
+        {
+            "name": "Landed Cost Purchase Receipt"
+        },
+        {
+            "name": "Landed Cost Taxes and Charges"
+        },
+        {
+            "name": "Landed Cost Voucher"
+        },
+        {
+            "name": "Manufacturer"
+        },
+        {
+            "name": "Material Request"
+        },
+        {
+            "name": "Material Request Item"
+        },
+        {
+            "name": "Packed Item"
+        },
+        {
+            "name": "Packing Slip"
+        },
+        {
+            "name": "Packing Slip Item"
+        },
+        {
+            "name": "Pick List"
+        },
+        {
+            "name": "Pick List Item"
+        },
+        {
+            "name": "Price List"
+        },
+        {
+            "name": "Price List Country"
+        },
+        {
+            "name": "Purchase Receipt"
+        },
+        {
+            "name": "Purchase Receipt Item"
+        },
+        {
+            "name": "Putaway Rule"
+        },
+        {
+            "name": "Quality Inspection"
+        },
+        {
+            "name": "Quality Inspection Parameter"
+        },
+        {
+            "name": "Quality Inspection Parameter Group"
+        },
+        {
+            "name": "Quality Inspection Reading"
+        },
+        {
+            "name": "Quality Inspection Template"
+        },
+        {
+            "name": "Quick Stock Balance"
+        },
+        {
+            "name": "Repost Item Valuation"
+        },
+        {
+            "name": "Serial and Batch Bundle"
+        },
+        {
+            "name": "Serial and Batch Entry"
+        },
+        {
+            "name": "Serial No"
+        },
+        {
+            "name": "Shipment"
+        },
+        {
+            "name": "Shipment Delivery Note"
+        },
+        {
+            "name": "Shipment Parcel"
+        },
+        {
+            "name": "Shipment Parcel Template"
+        },
+        {
+            "name": "Stock Entry"
+        },
+        {
+            "name": "Stock Entry Detail"
+        },
+        {
+            "name": "Stock Entry Type"
+        },
+        {
+            "name": "Stock Ledger Entry"
+        },
+        {
+            "name": "Stock Reconciliation"
+        },
+        {
+            "name": "Stock Reconciliation Item"
+        },
+        {
+            "name": "Stock Reposting Settings"
+        },
+        {
+            "name": "Stock Reservation Entry"
+        },
+        {
+            "name": "Stock Settings"
+        },
+        {
+            "name": "UOM Category"
+        },
+        {
+            "name": "UOM Conversion Detail"
+        },
+        {
+            "name": "Variant Field"
+        },
+        {
+            "name": "Warehouse"
+        },
+        {
+            "name": "Warehouse Type"
+        },
+        {
+            "name": "Subcontracting BOM"
+        },
+        {
+            "name": "Subcontracting Order"
+        },
+        {
+            "name": "Subcontracting Order Item"
+        },
+        {
+            "name": "Subcontracting Order Service Item"
+        },
+        {
+            "name": "Subcontracting Order Supplied Item"
+        },
+        {
+            "name": "Subcontracting Receipt"
+        },
+        {
+            "name": "Subcontracting Receipt Item"
+        },
+        {
+            "name": "Subcontracting Receipt Supplied Item"
+        },
+        {
+            "name": "Issue"
+        },
+        {
+            "name": "Issue Priority"
+        },
+        {
+            "name": "Issue Type"
+        },
+        {
+            "name": "Pause SLA On Status"
+        },
+        {
+            "name": "Service Day"
+        },
+        {
+            "name": "Service Level Agreement"
+        },
+        {
+            "name": "Service Level Priority"
+        },
+        {
+            "name": "SLA Fulfilled On Status"
+        },
+        {
+            "name": "Support Search Source"
+        },
+        {
+            "name": "Support Settings"
+        },
+        {
+            "name": "Warranty Claim"
+        },
+        {
+            "name": "Call Log"
+        },
+        {
+            "name": "Incoming Call Handling Schedule"
+        },
+        {
+            "name": "Incoming Call Settings"
+        },
+        {
+            "name": "Telephony Call Type"
+        },
+        {
+            "name": "Voice Call Settings"
+        },
+        {
+            "name": "Portal User"
+        },
+        {
+            "name": "Rename Tool"
+        },
+        {
+            "name": "SMS Log"
+        },
+        {
+            "name": "Video"
+        },
+        {
+            "name": "Video Settings"
+        },
+        {
+            "name": "About Us Settings"
+        },
+        {
+            "name": "About Us Team Member"
+        },
+        {
+            "name": "Blog Category"
+        },
+        {
+            "name": "Blog Post"
+        },
+        {
+            "name": "Blog Settings"
+        },
+        {
+            "name": "Blogger"
+        },
+        {
+            "name": "Color"
+        },
+        {
+            "name": "Company History"
+        },
+        {
+            "name": "Contact Us Settings"
+        },
+        {
+            "name": "Discussion Reply"
+        },
+        {
+            "name": "Discussion Topic"
+        },
+        {
+            "name": "Help Article"
+        },
+        {
+            "name": "Help Category"
+        },
+        {
+            "name": "Marketing Campaign"
+        },
+        {
+            "name": "Personal Data Deletion Request"
+        },
+        {
+            "name": "Personal Data Deletion Step"
+        },
+        {
+            "name": "Personal Data Download Request"
+        },
+        {
+            "name": "Portal Menu Item"
+        },
+        {
+            "name": "Portal Settings"
+        },
+        {
+            "name": "Social Link Settings"
+        },
+        {
+            "name": "Top Bar Item"
+        },
+        {
+            "name": "Web Form"
+        },
+        {
+            "name": "Web Form Field"
+        },
+        {
+            "name": "Web Form List Column"
+        },
+        {
+            "name": "Web Page"
+        },
+        {
+            "name": "Web Page Block"
+        },
+        {
+            "name": "Web Page View"
+        },
+        {
+            "name": "Web Template"
+        },
+        {
+            "name": "Web Template Field"
+        },
+        {
+            "name": "Website Meta Tag"
+        },
+        {
+            "name": "Website Route Meta"
+        },
+        {
+            "name": "Website Route Redirect"
+        },
+        {
+            "name": "Website Script"
+        },
+        {
+            "name": "Website Settings"
+        },
+        {
+            "name": "Website Sidebar"
+        },
+        {
+            "name": "Website Sidebar Item"
+        },
+        {
+            "name": "Website Slideshow"
+        },
+        {
+            "name": "Website Slideshow Item"
+        },
+        {
+            "name": "Website Theme"
+        },
+        {
+            "name": "Website Theme Ignore App"
+        },
+        {
+            "name": "Workflow"
+        },
+        {
+            "name": "Workflow Action"
+        },
+        {
+            "name": "Workflow Action Master"
+        },
+        {
+            "name": "Workflow Action Permitted Role"
+        },
+        {
+            "name": "Workflow Document State"
+        },
+        {
+            "name": "Workflow State"
+        },
+        {
+            "name": "Workflow Transition"
+        }
+    ]
+}
